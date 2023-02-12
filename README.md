@@ -1,7 +1,8 @@
-# Branch naming policy
+### Branch naming policy
 `kind-of-work/developer/short-description`
-Examples:
-`feature/john/new-fancy-component`
+
+Examples:\
+`feature/john/new-fancy-component`\
 `fix/maria/super-important-fix`
 
 ## Available Scripts
