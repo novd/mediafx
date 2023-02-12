@@ -1,6 +1,8 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Branch naming policy
+`kind-of-work/developer/short-description`
+Examples:
+`feature/john/new-fancy-component`
+`fix/maria/super-important-fix`
 
 ## Available Scripts
 
