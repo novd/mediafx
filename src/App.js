@@ -11,5 +11,4 @@ function App() {
 }
 
 export default App;
-//znaleźć jak w js ładowanie zdj do aplikacji upload photo
 

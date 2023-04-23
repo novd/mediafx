@@ -4,7 +4,6 @@ import React, { useState } from "react";
 
 const PhotoUploader = () => {
     const [selectedImage, setSelectedImage] = useState(null);
-    //moge tu pisac kod 
     return (
       <div>
         {/* <h1>Upload and Display Image usign React Hook's</h1> */}
@@ -50,8 +49,3 @@ const PhotoUploader = () => {
 
  
 export default PhotoUploader;
-
-
-//1. komponent photouploader ma pozwalac na wczytanie zdj i ma je wyświetlać
-//2. zakomitowac zmiany z ładnym opisem po ang 1 zdanie
-//3. stworzyc pull request na githubie 

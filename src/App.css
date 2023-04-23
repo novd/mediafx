@@ -1,6 +1,7 @@
 .App {
   text-align: center;
 }
+
 body
 {
   background: rgb(131, 195, 208);
@@ -9,6 +10,7 @@ body
   justify-content: center;
   min-height: 100vh;
 }
+
 .wrapped
 {
   width: 430px;
@@ -16,6 +18,7 @@ body
   background: white;
   border-radius: 5px;
 }
+
 .wrapped header
 {
   color: rgb(131, 195, 208);
@@ -23,6 +26,7 @@ body
   font-weight: 600px;
   text-align: center;
 }
+
 .wrapped form
 {
   height: 167px;
@@ -35,19 +39,23 @@ body
   border-radius: 5px;
   border: 2px dashed black;
 }
+
 form :where(i,p)
 {
   color: black;
 }
+
 form i
 {
   font-size: 50px;
 }
+
 form p
 {
   font-size: 16px;
   margin-top: 15px;
 }
+
 section .row
 {
   background:  rgba(131, 195, 208, 0.516);
@@ -59,20 +67,24 @@ section .row
   align-items: center;
   justify-content: space-between;
 }
+
 section .row i 
 {
   font-size: 30px;
   color: black;
 }
+
 section .details span
 {
   font-size: 14px;
 }
+
 .progress-area .row .content
 {
   width: 100%;
   margin-left: 15px;
 }
+
 .progress-area .details 
 {
   display: flex;
@@ -80,6 +92,7 @@ section .details span
   margin-bottom: 7px;
   justify-content: space-between;
 }
+
 .progress-area .progress-bar
 {
   height: 6px;
@@ -88,6 +101,7 @@ section .details span
   margin-bottom: 4px;
   border-radius: 30px;
 }
+
 .progress-bar .progress
 {
   height: 100%;
@@ -95,22 +109,26 @@ section .details span
   background:  rgb(36, 154, 237);
   border-radius: inherit;
 }
+
 .uploaded-area .row .content
 {
   display: flex;
   align-items: center;
 }
+
 .uploaded-area .row .details 
 {
   display: flex;
   margin-left: 15px;
   flex-direction: column;
 }
+
 .uploaded-area .details .size
 {
   font-size: 11px;
   color: rgb(36, 154, 237);
 }
+
 .uploaded-area .fa-check
 {
   color:rgb(36, 154, 237);
